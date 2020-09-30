@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices.WindowsRuntime;
 
 namespace Open_Lab_02._01
 {
@@ -6,12 +7,13 @@ namespace Open_Lab_02._01
     {
         public double[] Create5Numbers()
         {
-            throw new NotImplementedException();
+            double[] listOfarraysDoubles = new[] {1.9, 2.5, 3.1, 8.2, 17.22};
+            return listOfarraysDoubles;
         }
 
         public double GetSecond(double[] numbers)
         {
-            throw new NotImplementedException();
+            return numbers[1];
         }
     }
 }
